@@ -1,0 +1,289 @@
+
+.contain {
+        height: 100%; 
+    width: 100%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.inner-contain {
+    width: 600px; height: 600px; background:black
+}
+
+.red-box {
+    width: 237px;
+    height: 237px; 
+    background: red; 
+    float:left;
+    border-width: 2px 1px 1px 2px; 
+    border-color: black;
+    border-style: solid;
+}
+
+.inner {
+    width: 156px;
+    height: 156px; 
+    float: left;
+    border: 2px solid black; 
+    margin-left: 39px; 
+    margin-top: 39px;
+}
+
+.white-box {
+    width: 78px;
+    height: 78px; 
+    background: white;
+    float: left;
+}
+
+.round-red {
+   width: 40px;
+    height: 40px; 
+    background: red;
+    border-radius: 50%; 
+    margin-left: 17px; 
+    margin-top: 17px; 
+    border: 2px solid black; 
+}
+
+.top-box {
+    width: 120px;
+    height: 240px;
+    float: left;
+}
+
+.top-small {
+    width: 38px;
+    height: 37px; 
+    background: white;
+    float: left;
+    border-width:2px 1px 1px 1px; 
+    border-color: black;
+    border-style: solid;
+}
+
+
+
+.green-arrow {
+    width: 38px;
+    height: 37px; 
+    background: white;
+    float: left;
+    border-width:2px 1px 1px 1px;
+    border-color: black;
+    border-style: solid;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    font-size:30px; 
+    color: green
+}
+
+.small-white {
+    width: 38px;
+    height: 38px; 
+    background: white;
+    float: left;
+    border: 1px solid black;
+}
+
+.small-green {
+    width: 38px;
+    height: 38px; 
+    background: green;
+    float: left;
+    border: 1px solid black;
+}
+
+.star {
+   width: 38px;
+    height: 38px; 
+    background: white;
+    float: left;
+    border: 1px solid black;
+    font-size:45px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.green-box {
+    width: 237px; 
+    height: 237px; 
+    background: green;
+    float: left;
+    border-width: 2px 2px 1px 1px; 
+    border-color: black;
+    border-style: solid;
+}
+
+.round-green {
+    width: 40px;
+    height: 40px; 
+    background: green;
+    border-radius: 50%; 
+    margin-left: 17px; 
+    margin-top: 17px;  
+    border: 2px solid black;
+}
+
+.left-box {
+    width: 240px;
+    height: 120px; 
+    float: left;
+}
+
+.left-small {
+    width: 37px;
+    height: 38px; 
+    background: white;
+    float: left;
+    border-width: 1px 1px 1px 2px; 
+    border-color: black;
+    border-style: solid;
+}
+
+.small-red {
+    width: 38px;
+    height: 38px; 
+    background: red;
+    float: left;
+    border: 1px solid black;
+}
+
+.red-arrow {
+    width: 37px;
+    height: 38px; 
+    background: white;
+    float: left;
+    border-width: 1px 1px 1px 2px; 
+    border-color: black;
+    border-style: solid;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    font-size:30px; 
+    color: red
+}
+
+.mid {
+    width: 118px;
+    height: 118px; 
+    float: left;
+    border: 1px solid black;
+}
+
+.mid-square {
+   width: 0;
+	height: 0;
+    border-right: 59px solid gold;
+    border-left: 59px solid red;
+    border-top: 59px solid green;
+	border-bottom: 59px solid blue; 
+}
+
+.right-small {
+    width: 37px;
+    height: 38px; 
+    background: white;
+    float: left;
+    border-width: 1px 2px 1px 1px; 
+    border-color: black;border-style: solid;
+}
+
+.small-gold {
+    width: 38px;
+    height: 38px; 
+    background: gold;
+    float: left;
+    border: 1px solid black;
+}
+
+.gold-arrow {
+    width: 37px;
+    height: 38px; 
+    background: white;
+    float: left;
+    border-width: 1px 2px 1px 1px; 
+    border-color: black;
+    border-style: solid;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    font-size:30px; 
+    color: gold;
+}
+
+.blue-box {
+    width: 237px;
+    height: 237px;
+    background: blue; 
+    float: left;
+    border-width: 1px 1px 2px 2px; 
+    border-color: black;
+    border-style: solid;
+}
+
+.round-blue {
+    width: 40px;
+    height: 40px; 
+    background: blue;
+    border-radius: 50%; 
+    margin-left: 17px; 
+    margin-top: 17px;  
+    border: 2px solid black;
+}
+
+.small-blue {
+    width: 38px;
+    height: 38px; 
+    background: blue;
+    float: left;
+    border: 1px solid black;
+}
+
+.blue-arrow {
+    width: 38px;
+    height: 37px; 
+    background: white;
+    float: left;
+    border-width: 1px 1px 2px 1px; 
+    border-color: black;
+    border-style: solid;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    font-size:30px; 
+    color: blue
+}
+
+.bottom-small {
+    width: 38px;
+    height: 37px; 
+    background: white;
+    float: left;
+    border-width: 1px 1px 2px 1px;  
+    border-color: black;
+    border-style: solid;
+}
+
+.gold-box {
+    width: 237px;
+    height:237px;
+    background: gold; 
+    float:left;
+    border-width: 1px 2px 2px 1px; 
+    border-color: black;
+    border-style: solid;
+}
+
+.round-gold {
+    width: 40px;
+    height: 40px; 
+    background: gold;
+    border-radius: 50%; 
+    margin-left: 17px; 
+    margin-top: 17px;  
+    border: 2px solid black;
+}
