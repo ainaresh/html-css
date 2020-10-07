@@ -36,7 +36,7 @@
     width: 80px;
     height: 80px;
     background-color: #cda180;
-    background-image: url(/images/pattern.png);
+    background-image: url(pattern.png);
     font-size:50px;
     text-align:center;
     display: table-cell;
