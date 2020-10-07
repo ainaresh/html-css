@@ -1,0 +1,44 @@
+.chessboard {
+    width: 650px;
+    height: 650px;
+    margin: 20px;
+    
+    background-color: #96642d;
+    
+/*
+    border: 25px solid #333;
+    background-image: url(pattern.png);
+*/
+    border-radius: 10px;
+    border: 25px solid transparent;
+    border-image: url(pattern.png) 30 round;
+} 
+    .inner{
+        height: 640px;
+        widows: 640px;
+        padding: 5px;
+        background-color: #91603f;
+    }
+ 
+.black {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: #96642d;
+    background-image: url(pattern.png);
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+.white {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: #cda180;
+    background-image: url(/images/pattern.png);
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
